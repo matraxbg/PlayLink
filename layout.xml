@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout onVolumeUp="volume_up" onVolumeDown="volume_down">
+	<row weight = "wrap">
+		<text id="text" onChange="change" />
+	</row>
+	<row weight = "wrap">
+		<button text="Play Link" ontap="play" />
+	</row>
+	<row weight = "wrap">
+		<button text="Open Link" ontap="open" />
+	</row>
+	<row weight="wrap">
+		<button icon="rwd" ontap="rewind" />
+		<button icon="Playpause" ontap="playpause" />
+		<button icon="ff" ontap="fastforward" />
+	</row>
+	<row weight="wrap">
+		<button icon="vdown" ontap="vdown" />
+		<button icon="vmute" ontap="vmute" />
+		<button icon="vup" ontap="vup" />
+	</row>
+	<row weight="wrap">
+		<button icon="previous" ontap="prev" />
+		<button icon="fullscreen" ontap="fscreen" />
+		<button icon="next" ontap="nxt" />
+	</row>
+	<row weight="wrap">
+		<button text="Toggle Captions" ontap="captions" />
+		<button text="Toggle Subtitles Track" ontap="sub" />
+		<button text="Toggle Audio Track" ontap="dio" />
+	</row>
+	<row weight="wrap">
+		<button text="Twitch Theatre Mode" ontap="theatre" color="#8763ca"/>
+		<button text="Skip Intro" ontap="skipintro" color="#A40000"/>
+	</row>
+	<row weight="wrap">
+		<button text="ESC" ontap="esc" />
+		<button text="PgUp" ontap="pgup" />
+		<button text="Enter" ontap="enter" />
+	</row>
+	<row weight="wrap">
+		<button text="Shift+Tab" ontap="shifttab" />
+		<button text="PgDn" ontap="pgdown" />
+		<button text="Tab" ontap="tab" />
+	</row>
+	<row weight="wrap"></row>
+	<row weight="wrap">
+		<label color="#111111"/>
+		<button icon="up" ontap="chat" />
+		<label color="#111111"/>
+	</row>
+	<row weight="wrap">
+		<button icon="left" ontap="chat" />
+		<button icon="down" ontap="chat" />
+		<button icon="right" ontap="chat" />
+	</row>
+</layout>
