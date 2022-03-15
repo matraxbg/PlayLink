@@ -5,6 +5,7 @@ install python https://www.python.org/downloads/
 python -m pip install selenium
 python -m pip install requests
 python -m pip install pywin32 
+python -m pip install pyautogui
 
 # Google Extensions
 Netflix Keyboard Shortcuts https://chrome.google.com/webstore/detail/netflix-keyboard-shortcut/mjpponglbellandpimdbmmhbhmakcgji/related

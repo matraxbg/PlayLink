@@ -48,6 +48,8 @@ else:
     opts.add_argument("user-data-dir=C:\\Users\\"+windows_user+"\\AppData\\Local\\Google\\Chrome\\User Data")
     opts.add_argument("--disable-notifications")
     opts.add_argument("start-maximized")
+    opts.add_argument("--profile-directory=Default")
+    opts.add_argument('--user-data-dir=C:/Temp/ChromeProfile')
     prefs = {'exit_type': 'Normal'} 
     opts.add_experimental_option("detach", True)
     opts.add_experimental_option("prefs", {'profile': prefs})
